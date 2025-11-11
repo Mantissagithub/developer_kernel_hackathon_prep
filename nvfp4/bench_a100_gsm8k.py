@@ -3,7 +3,7 @@ from datasets import load_dataset
 import re
 import os
 
-# A100 40GB GSM8K accuracy test
+# A100 80GB GSM8K accuracy test
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 

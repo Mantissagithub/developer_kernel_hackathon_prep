@@ -2,7 +2,7 @@ from vllm import LLM, SamplingParams
 import time
 import os
 
-# A100 40GB benchmark
+# A100 80GB benchmark
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 benchmark_prompts = [

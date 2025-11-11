@@ -3,7 +3,7 @@ from datasets import load_dataset
 import re
 import os
 
-# RTX Pro 6000 48GB GSM8K accuracy test
+# RTX Pro 6000 96GB GSM8K accuracy test
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 

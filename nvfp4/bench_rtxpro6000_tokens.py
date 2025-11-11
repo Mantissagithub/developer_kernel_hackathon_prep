@@ -2,7 +2,7 @@ from vllm import LLM, SamplingParams
 import time
 import os
 
-# RTX Pro 6000 48GB benchmark
+# RTX Pro 6000 96GB benchmark
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 benchmark_prompts = [
